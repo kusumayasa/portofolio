@@ -14,8 +14,9 @@
       <h1 class="text-xl font-bold text-primary">Profile Yasa</h1>
       <nav class=" text-right text-primary">
         <ul class="">
-          <li class=" text-lg inline-block"><a href="#home" class="p-3">Home</a></li>
-          <li class=" text-lg inline-block"><a href="#about" class="p-3">About</a></li>
+          <li class="text-lg inline-block"><a href="#home" class="p-3">Home</a></li>
+          <li class="text-lg inline-block"><a href="#projects" class="p-3">My Projects</a></li>
+          <li class="text-lg inline-block"><a href="#about" class="p-3">About</a></li>
         </ul>
       </nav>
   </header>
@@ -35,7 +36,7 @@
         </div>
         <div class="w-full self-end px-4 lg:w-1/2">
           <div class="mt-10 relative lg:mt-0 lg:right-0">
-            <img src="./image/yasa.png" alt="Foto Kusuma Yasa" class="max-w-sm mx-auto">
+            <img src="./images/yasa.png" alt="Foto Kusuma Yasa" class="max-w-sm mx-auto">
             <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-150">
               <svg width="388" height="388" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#3b82f6" d="M40.7,-38.8C53.5,-27.9,65.2,-14,70,4.7C74.7,23.4,72.5,46.8,59.6,55.9C46.8,65,23.4,59.7,2.3,57.4C-18.7,55,-37.4,55.6,-51.3,46.5C-65.1,37.4,-74.1,18.7,-74,0.1C-73.9,-18.5,-64.8,-37.1,-50.9,-48C-37.1,-59,-18.5,-62.3,-2.3,-60C14,-57.7,27.9,-49.8,40.7,-38.8Z" transform="translate(100 100)" />
@@ -47,6 +48,51 @@
     </div>
   </section>
   <!-- Hero Section End  -->
+
+<!-- Projects Section Start -->
+<section id="projects" class="pt-36 pb-32 bg-neutral-100">
+    <div class="container">
+        <div class="mb-10 text-center">
+            <h3 class="font-bold text-primary text-4xl mb-3">My Projects</h3>
+            <p class="font-medium text-base text-secondary max-w-2xl mx-auto lg:text-lg">
+                Explore some of the projects I've worked on. Click on the links to learn more!
+            </p>
+        </div>
+
+        <!-- Project List -->
+        <div class="grid grid-cols-1 gap-x-28 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Project 1 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="./images/project1.PNG" alt="Project 1" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-dark text-2xl mb-3">KulinerApp</h4>
+                    <p class="text-secondary mb-4">This application is designed to facilitate customers in choosing a restaurant, viewing ratings, and providing reviews for the respective establishments. The data utilized is placeholder and accessed from a public API.</p>
+                    <a href="https://kulinerapp.netlify.app/" class="text-primary hover:underline block mb-2" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="./images/project2.PNG" alt="Project 2" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-dark text-2xl mb-3">Prilaku</h4>
+                    <p class="text-secondary mb-4">Prilaku is a website application that makes it easy to build habits, make schedules more organized, and can increase productivity. With a modern interface, great user experience, and lots of supporting features.</p>
+                    <a href="https://prilaku.vercel.app/" class="text-primary hover:underline block mb-2" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <!-- Add more projects as needed -->
+
+        </div>
+        <!-- End Project List -->
+
+    </div>
+</section>
+<!-- Projects Section End -->
+
+
+
+
 
   <!-- About Section Start -->
   <section id="about" class="pt-36 pb-32">
@@ -79,6 +125,9 @@
     </div>
   </section>
   <!-- About Section End -->
+
+
+
 
   <!-- Footer Start -->
   <footer class="w-full bg-primary text-center py-4">
