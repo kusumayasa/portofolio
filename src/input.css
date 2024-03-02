@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+header {
+  backdrop-filter: blur(6px);
+}
